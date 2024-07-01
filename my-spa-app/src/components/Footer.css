@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #e5a515;
+    border-radius: 50px;
+    margin: 20px;
+  }
+
+.footer.dark {
+    background-color: #333; 
+  }
+
+.social-button {
+    color: white;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+  }
+  
+.social-button:hover {
+    transform: scale(1.2);
+  }
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-bottom: 10px; 
+    padding-top: 10px;
+  }
+
+.footer p {
+    color: white;
+    text-align: center;
+  }
+
+.social-buttons {
+    margin-bottom: 10px;
+  }
+
+
+.social-button {
+    margin-right: 10px;
+  }

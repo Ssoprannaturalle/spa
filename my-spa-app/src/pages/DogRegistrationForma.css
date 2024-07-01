@@ -1,0 +1,144 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 70vh;
+    background: #f5f5f5;
+  }
+
+.dark-mode .form-container {
+    background: #8f8f8f 
+  }
+  
+.registration-form {
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    box-sizing: border-box;
+  
+  }
+  
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+.form-group {
+    margin-bottom: 50px;
+  }
+  
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+.form-group .error {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+.submit-button {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: #e5a515;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+.submit-button:hover {
+    background: #0056b3;
+  }
+  
+@media (max-width: 480px) {
+    .registration-form {
+      padding: 15px;
+    }
+  
+    .registration-form h2 {
+      font-size: 18px;
+    }
+  
+    .form-group input {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+
+
+
+
+.back-button {
+    font-size: 1.25rem;
+    background-color: #e5a515;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    color: #fafbfc;
+    margin-top: 30px;
+  }
+
+
+.dark-mode .back-button {
+    font-size: 1.25rem;
+    background-color: #000000;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    color: #fafbfc;
+    margin-top: 30px;
+  }
+
+
+
+
+
+.dark-mode   .submit-button {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  
+
+.success-message.dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,130 @@
+.navbar {
+    background-color: #e5a515;    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 50px;
+
+  }
+  
+.nav-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.nav-links ul li {
+    margin-right: 20px;
+  }
+  
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+.nav-links ul li a:hover {
+    background-color: #ffc799;
+  }
+  
+.nav-toggle {
+    display: none; 
+    cursor: pointer;
+  }
+  
+.burger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.burger.active {
+    transform: rotate(45deg);
+  }
+  
+.burger::before,
+.burger::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.burger.active::before {
+    transform: translateY(8px) rotate(90deg);
+  }
+  
+.burger.active::after {
+    transform: translateY(-8px) rotate(90deg);
+  }
+  
+@media (max-width: 768px) {
+    .nav-links {
+      font-size: 15px;
+      margin-top: 35px;
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #e5a515;
+      z-index: 10;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      box-sizing: border-box;
+      transition: transform 0.3s ease-in-out;
+      transform: translateY(-100%);
+    }
+  
+.nav-links.active {
+      display: flex;
+      transform: translateY(0);
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  }
+
+
+.dark-mode-button {
+  padding:10px;
+  margin-right: 5px;
+  background-color: #333;
+  background-color: #e5a515;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+
+.navbar.dark-mode {
+  background-color: #333; 
+  color: #fff; 
+}
+
+
+
+
+
