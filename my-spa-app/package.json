@@ -2,6 +2,7 @@
   "name": "my-spa-app",
   "version": "0.1.0",
   "private": true,
+ "homepage": "https://{Ssoprannaturalle}.github.io/{spa}",
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
     "@testing-library/jest-dom": "^5.17.0",
